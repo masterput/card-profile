@@ -1,8 +1,9 @@
 .card {
-    width: 356px;
+    width: 365px;
     background-color: white;
-    padding: 35px;
+    padding: 40px;
     border-radius: 30px;
+    margin-right: 15px;
 }
 
 .profile {
