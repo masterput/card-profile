@@ -1,7 +1,18 @@
+import acsent from '../assets/acsent.png'
+
 const CardProfile = () => {
     return (
-        <div>
-            <div>
+        // 1. inline css
+        <div style={{ 
+            backgroundColor : '#9cbddb', 
+            width: '100vw',
+            height: '100vh',
+            backgroundImage: `url(${acsent})`,
+            backgroundPosition: 'bottom right',
+            backgroundRepeat: 'no-repeat'
+            }}
+        >
+            <div className='card'>
                 <img />
                 <div>Front End Developer</div>
                 <div>Master Putra Praja</div>
