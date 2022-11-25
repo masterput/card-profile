@@ -1,5 +1,6 @@
-import acsent from '../assets/acsent.png'
+import acsent from '../assets/acsent.png';
 import '../css/style.css';
+import profile from '../assets/profile.png';
 
 const CardProfile = () => {
     return (
@@ -16,12 +17,13 @@ const CardProfile = () => {
             alignItems: 'center'
             }}
         >
+            {/* 2. CSS File */}
             <div className='card'>
-                <img />
-                <div>Front End Developer</div>
-                <div>Master Putra Praja</div>
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                <button>Contact Me</button>
+                <img src={profile} />
+                <div className='profile'>Front End Developer</div>
+                <div className='name'>Master Putra Praja</div>
+                <div className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <button className='button'>Contact Me</button>
             </div>
         </div>
     )

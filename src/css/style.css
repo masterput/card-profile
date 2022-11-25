@@ -1,6 +1,48 @@
 .card {
     width: 356px;
     background-color: white;
-    padding: 40px;
+    padding: 35px;
     border-radius: 30px;
+}
+
+.profile {
+    /* font-family: 'Poppins'; */
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    color: #9cbddb;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #494949;
+    padding: 4px 0 10px 0;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border: 4px solid #9cbddb;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.button {
+    background: #9cbddb;
+    border-radius: 10px;
+    padding: 6px 20px;
+    border: none;
+    margin-top: 12px;
+    color: #fff;
+    font-weight: 500;
 }
